@@ -14,42 +14,41 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 host: 0.0.0.0
-url: https://sathyam.me
+url: http://localhost:8000
 
 blog:
   tags:
     dir: "blog/tags/"
     layout: "tag.html"
-    title_prefix: "Sathyam Vellal / Blog / Tags / "
+    title_prefix: "Website Title / Blog / Tags / "
   category:
     dir: "blog/categories/"
     layout: "category.html"
-    title_prefix: "Sathyam Vellal / Blog / Categories / "
+    title_prefix: "Website Title / Blog / Categories / "
 
 categories_list: [
   'General'
 ]
 tags_list: [
-  'Goodbye',
-  'Los Angeles',
-  'USC'
+  'General',
+  'Introduction'
 ]
 
 prose:
   rooturl: "source"
-  siteuril: "https://sathyam.me"
+  siteuril: "http://localhost:8000"
   metadata: true
 
-title: Sathyam Vellal
-email: sathyam@vellals.com
-name: Sathyam Vellal
-description: Music, Food and Code - The three dimensions to my world.
+title: Website Title
+email: website@template.com
+name: Website Name
+description: Website description goes here.
 source: source
 destination: site
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: sathyamvellal
-github_username:  sathyamvellal
+twitter_username:
+github_username:
 
 subscribe_rss: /atom.xml
 
@@ -61,5 +60,3 @@ markdown: kramdown
 
 sass:
   style: :compressed
-
-google_analytics_tracking_id: UA-42225587-1
