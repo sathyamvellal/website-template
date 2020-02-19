@@ -4,9 +4,9 @@
   {% assign sorted_tags=include.post.tags | sort %}
   {% for tag in sorted_tags %}
     {% if forloop.index != include.post.tags.size %}
-      <a href="/posts/tags/{{ tag | replace_regex: '\s+', '-' | downcase }}">{{ tag }}</a>,
+      <a href="/blog/tags/{{ tag | replace_regex: '\s+', '-' | downcase }}">{{ tag }}</a>,
     {% else %}
-      <a href="/posts/tags/{{ tag | replace_regex: '\s+', '-' | downcase }}">{{ tag }}</a>
+      <a href="/blog/tags/{{ tag | replace_regex: '\s+', '-' | downcase }}">{{ tag }}</a>
     {% endif %}
   {% endfor %}
 </span>
