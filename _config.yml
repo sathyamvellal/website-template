@@ -18,13 +18,13 @@ url: https://sathyam.me
 
 blog:
   tags:
-    dir: "blog/tags/"
+    dir: "posts/tags/"
     layout: "tag.html"
-    title_prefix: "Sathyam Vellal / Blog / Tags / "
+    title_prefix: "Sathyam Vellal / Posts / Tags / "
   category:
-    dir: "blog/categories/"
+    dir: "posts/categories/"
     layout: "category.html"
-    title_prefix: "Sathyam Vellal / Blog / Categories / "
+    title_prefix: "Sathyam Vellal / Posts / Categories / "
 
 categories_list: [
   'General'
@@ -46,7 +46,7 @@ name: Sathyam Vellal
 description: Music, Food and Code - The three dimensions to my world.
 source: source
 destination: site
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/posts" # the subpath of your site, e.g. /blog
 # url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: sathyamvellal
 github_username:  sathyamvellal

@@ -2,10 +2,6 @@
   url: /
   target: ''
 
-# - title: <i class="fas fa-book"></i>
-#   url: /appendix/
-#   target: ''
-
-- title: <i class="fab fa-itunes-note"></i>
-  url: /music/
+- title: <i class="fas fa-book"></i>
+  url: /posts
   target: ''

@@ -33,7 +33,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $h-font-family-serif;
   text-align: left;
-  font-weight: 600;
+  font-weight: 700 !important;
+}
+
+h1, h2, h3, h4 {
+  font-style: italic;
 }
 
 ul, ol, dl {
@@ -45,14 +49,19 @@ li {
 }
 
 strong {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 // small screen
 @media (max-width: 720px) {
   body {
+    font-family: $font-family-sans-serif;
     font-size: $font-size-base * 1.05;
     line-height: $line-height-sm;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $h-font-family-sans-serif;
   }
 
   h1 { font-size: $h1-font-size * $h-font-size-multiplier-sm; }
@@ -65,7 +74,6 @@ strong {
 @media (min-width: 720px) {
   body {
     font-size: $font-size-base;
-    font-weight: 300;
     line-height: $line-height-lg;
   }
 }
