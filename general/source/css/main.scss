@@ -58,14 +58,15 @@ strong {
 // small screen
 @media (max-width: 720px) {
   body {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-serif;
     font-size: $font-size-base-sm;
     line-height: $line-height-sm;
     font-weight: 300;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: $h-font-family-sans-serif;
+    font-family: $h-font-family-serif;
+    color: #000;
   }
 
   h1 { font-size: $h1-font-size * $h-font-size-multiplier-sm; }
