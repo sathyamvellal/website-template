@@ -3,7 +3,7 @@ module.exports = function(eleventyConfig) {
         return entity + "!";
     });
 
-    eleventyConfig.addPassthroughCopy({"source/static" : "/"});
+    eleventyConfig.addPassthroughCopy({"source/_static" : "/"});
 
     return {
         pathPrefix: "/",

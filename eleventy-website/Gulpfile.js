@@ -7,5 +7,5 @@ gulp.task("css", function() {
                 outputStyle: "compressed"
             })
             .on("error", sass.logError))
-            .pipe(gulp.dest("./source/static/css/"));
+            .pipe(gulp.dest("./source/_static/css/"));
 });
