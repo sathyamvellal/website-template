@@ -3,6 +3,8 @@ module.exports = function(eleventyConfig) {
         return entity + "!";
     });
 
+    eleventyConfig.addPassthroughCopy({"source/static" : "/"});
+
     return {
         pathPrefix: "/",
         htmlTemplateEngine: "njk",
@@ -14,6 +16,6 @@ module.exports = function(eleventyConfig) {
             includes: "_includes",
             layouts: "_layouts",
             data: "_data"
-        }
+        },
     };
 }
